@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background: url(bg-pattern.png);
+}
+
+h1{
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    width: fit-content;
+    color: rgb(39, 51, 16);
+    border: 3px solid #3D550C;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(176deg, rgba(255, 255, 255, 0.226) 0%, rgba(255, 255, 255, 0.185) 100%);
+}
+
+.container{
+    margin: 0 auto;
+    width: 35%;
+    color: rgb(39, 51, 16);
+    background: rgb(255,255,255);
+    background: linear-gradient(176deg, rgba(255, 255, 255, 0.226) 0%, rgba(255, 255, 255, 0.185) 100%);
+    border: 3px solid #3D550C;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    font-size: 1.3rem;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(39, 51, 16);
+}
+
+input{
+    border: 1.5px solid #3D550C;
+    border-radius: 5px;
+    color: rgb(39, 51, 16);
+    background: rgb(255,255,255);
+    background: linear-gradient(176deg, rgba(255, 255, 255, 0.452) 0%, rgba(255, 255, 255, 0.527) 100%);
+    padding: 0.3rem;
+}
+
+::placeholder{
+    color: rgba(39, 51, 16, 0.719);
+    font-style: italic;
+}
